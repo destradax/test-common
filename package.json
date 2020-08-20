@@ -1,6 +1,7 @@
 {
   "name": "test-common",
   "version": "1.0.0",
+  "main": "src/components/index.js",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
