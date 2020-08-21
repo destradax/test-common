@@ -1,15 +1,15 @@
-"use strict";
+function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
 
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-Object.defineProperty(exports, "Button", {
-  enumerable: true,
-  get: function get() {
-    return _Button.default;
-  }
-});
+var React = _interopDefault(require('react'));
 
-var _Button = _interopRequireDefault(require("./Button"));
+var styles = {"test":"_styles-module__test__3ybTi"};
 
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+var ExampleComponent = function ExampleComponent(_ref) {
+  var text = _ref.text;
+  return /*#__PURE__*/React.createElement("div", {
+    className: styles.test
+  }, "Example Component: ", text);
+};
+
+exports.ExampleComponent = ExampleComponent;
+//# sourceMappingURL=index.js.map
