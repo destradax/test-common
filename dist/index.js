@@ -2,14 +2,13 @@ function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'defau
 
 var React = _interopDefault(require('react'));
 
-var styles = {"test":"_styles-module__test__3ybTi"};
+var styles = {"miciButton":"_28xJH"};
 
-var ExampleComponent = function ExampleComponent(_ref) {
-  var text = _ref.text;
+var MiciButton = function MiciButton() {
   return /*#__PURE__*/React.createElement("div", {
-    className: styles.test
-  }, "Example Component: ", text);
+    className: styles.miciButton
+  }, "MiciButton");
 };
 
-exports.ExampleComponent = ExampleComponent;
+exports.MiciButton = MiciButton;
 //# sourceMappingURL=index.js.map

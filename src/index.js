@@ -1,3 +1,3 @@
-import { MiciButton } from './components/MiciButton';
+import MiciButton from './components/MiciButton';
 
 export { MiciButton };
